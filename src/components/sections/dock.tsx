@@ -58,8 +58,8 @@ const AnimatedDockIcon = ({
   );
   const width = useSpring(widthSync, { mass: 0.1, stiffness: 150, damping: 12 });
 
-  const ySync = useTransform(distance, (d) =>
-  Math.abs(d) <= size / 2 ? ICON_LIFT_Y : 0
+  const ySync = useTransform(distance, (d): number =>
+    Math.abs(d) <= size / 2 ? ICON_LIFT_Y : 0
   );
   const y = useSpring(ySync, { mass: 0.1, stiffness: 150, damping: 12 });
 
