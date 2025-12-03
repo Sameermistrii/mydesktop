@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g2)"/>
+  <g fill="#0f172a" fill-opacity="0.08">
+    <circle cx="300" cy="520" r="160"/>
+    <circle cx="940" cy="180" r="120"/>
+    <rect x="520" y="220" width="280" height="360" rx="24"/>
+  </g>
+  <text x="50%" y="50%" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="36" fill="#334155">
+    Replace this file with about-me photo 2 (jpg/png/webp/svg)
+  </text>
+</svg>
