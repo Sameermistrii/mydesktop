@@ -286,13 +286,9 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
 
   const cardStyle = useMemo(
     () => ({
-      // @ts-expect-error CSS custom props
       "--icon": iconUrl ? `url(${iconUrl})` : "none",
-      // @ts-expect-error CSS custom props
       "--grain": grainUrl ? `url(${grainUrl})` : "none",
-      // @ts-expect-error CSS custom props
       "--behind-gradient": showBehindGradient ? (behindGradient ?? DEFAULT_BEHIND_GRADIENT) : "none",
-      // @ts-expect-error CSS custom props
       "--inner-gradient": innerGradient ?? DEFAULT_INNER_GRADIENT,
     }),
     [iconUrl, grainUrl, showBehindGradient, behindGradient, innerGradient]
